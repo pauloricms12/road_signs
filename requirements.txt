@@ -1,0 +1,9 @@
+roboflow
+gdown
+
+ultralytics
+opencv-python
+
+onnx 
+onnxruntime-gpu
+tensorrt-cu12
