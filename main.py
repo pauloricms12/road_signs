@@ -11,7 +11,7 @@ from src.visualizer import Visualizer
 ENGINE = True  # Set to False to use .pt model
 
 INPUT_VIDEO = "data/traffic_videos/clips.mp4"
-OUTPUT_VIDEO = f"output_inference_{'engine' if ENGINE else 'pt'}.mp4"
+OUTPUT_VIDEO = f"outputs/output_inference_{'engine' if ENGINE else 'pt'}.mp4"
 
 MODEL_PATH = f"road_signs_project/yolo11n_run/weights/best{'.engine' if ENGINE else '.pt'}"
 BATCH_SIZE = 16 
